@@ -33,12 +33,19 @@
             //string mobilenumber = Console.ReadLine();
             //Console.WriteLine(obj4.validatemobileNumber(mobilenumber));
 
-            Console.WriteLine("*****************************************************************************");
-            //Usecase5
-            Password_USecase5_Rule1 obj5 = new Password_USecase5_Rule1();
+            //Console.WriteLine("*****************************************************************************");
+            ////Usecase5
+            //Password_USecase5_Rule1 obj5 = new Password_USecase5_Rule1();
+            //Console.WriteLine("Please enter your Password ");
+            //string password = Console.ReadLine();
+            //Console.WriteLine(obj5.validatePassword(password));
+
+            Console.WriteLine("**********************************************************************************");
+            //Usecase6
+             Password_Usecase6_Rule2 obj6 = new Password_Usecase6_Rule2();
             Console.WriteLine("Please enter your Password ");
             string password = Console.ReadLine();
-            Console.WriteLine(obj5.validatePassword(password));
+            Console.WriteLine(obj6.validatePassword(password));
 
         }
     }
