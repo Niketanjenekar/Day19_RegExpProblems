@@ -47,12 +47,19 @@
             //string password = Console.ReadLine();
             //Console.WriteLine(obj6.validatePassword(password));
 
+            //Console.WriteLine("**********************************************************************************");
+            ////usecase7
+            //Password_Usecase7_Rule3 obj7 = new Password_Usecase7_Rule3();
+            //Console.WriteLine("Please enter your Password ");
+            //string password = Console.ReadLine();
+            //Console.WriteLine(obj7.validatePassword(password));
+
             Console.WriteLine("**********************************************************************************");
-            //usecase7
-            Password_Usecase7_Rule3 obj7 = new Password_Usecase7_Rule3();
+            //usecase8
+            Password_Usecase8_Rule4 obj8 = new Password_Usecase8_Rule4();
             Console.WriteLine("Please enter your Password ");
             string password = Console.ReadLine();
-            Console.WriteLine(obj7.validatePassword(password));
+            Console.WriteLine(obj8.validatePassword(password));
 
         }
     }
