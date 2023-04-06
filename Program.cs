@@ -19,12 +19,19 @@
             //string lName = Console.ReadLine();
             //Console.WriteLine(obj2.validatelastName(lName));
 
+            //Console.WriteLine("***************************************************************************");
+            ////UseCase3
+            //EmailID_USecase3 obj3 = new EmailID_USecase3();
+            //Console.WriteLine("Please Enter your Email-Id");
+            //string emaiID= Console.ReadLine();
+            //Console.WriteLine(obj3.validateEmailId(emaiID));
+
             Console.WriteLine("***************************************************************************");
-            //UseCase3
-            EmailID_USecase3 obj3 = new EmailID_USecase3();
-            Console.WriteLine("Please Enter your Email-Id");
-            string emaiID= Console.ReadLine();
-            Console.WriteLine(obj3.validateEmailId(emaiID));
+            //UseCase4
+            MobileNumber_Usecase4 obj4 = new MobileNumber_Usecase4();
+            Console.WriteLine("Please Enter your Mobile Number");
+            string mobilenumber = Console.ReadLine();
+            Console.WriteLine(obj4.validatemobileNumber(mobilenumber));
 
 
         }
